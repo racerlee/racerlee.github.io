@@ -13,8 +13,8 @@ sidebar:
     LEE YU PONG
   tagline: |
     國立成功大學化學工程學系 
-    [Department of Chemical Engineering, NCKU](https://che.ncku.edu.tw)
-  avatar: profile01.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    '<a href="https://che.ncku.edu.tw">Department of Chemical Engineering, NCKU</a>'
+  avatar: profile02.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: example@email.com
