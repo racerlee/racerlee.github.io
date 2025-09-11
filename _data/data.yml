@@ -14,14 +14,15 @@ sidebar:
   tagline: |
     國立成功大學化學工程學系 
     '<a href="https://che.ncku.edu.tw">Department of Chemical Engineering, NCKU</a>'
-  avatar: profile02.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  email: leeyupong@gmail.com
+  phone: +886 971816130
+  phone: +852 5711 7014
+  #timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: 
+  #website: https://example.com/ # Include the full website URL, including "http://" or "https://".
   linkedin: alandoe
   xing: alandoe
   github: jekyll
