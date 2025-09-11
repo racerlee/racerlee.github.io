@@ -26,8 +26,8 @@ sidebar:
   linkedin: YU PONG LEE
   #xing: alandoe
   github: racerlee
-  facebook: Yu Pong Lee
-  instagram: YUPONGLEE
+  facebook:  Yu Pong Lee
+  instagram:  YUPONGLEE
   #telegram: # add your nickname without '@' sign
   #gitlab:
   #bitbucket:
@@ -44,27 +44,27 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: 粵語 Cantonese
       level: Native
 
-    - idiom: French
+    - idiom: 中文 Chinese (Traditional)
       level: Professional
 
-    - idiom: Spanish
-      level: Professional
+    - idiom: English
+      level: Upper-Intermediate (B2 level)
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Roller-skating
       link:
 
 
-    - item: Snowboarding
+    - item: Badminton
       link:
 
 
-    - item: Cooking
+    - item: Learning coding (C++, Python)
       link:
 
 
