@@ -51,7 +51,9 @@ sidebar:
       level: Professional
 
     - idiom: English
-      level: Upper-Intermediate (B2 level)
+      level: | 
+        Upper-Intermediate 
+        / B2 level
 
   interests:
     title: Interests
