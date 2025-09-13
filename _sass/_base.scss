@@ -2,7 +2,10 @@
 body {
   font-family: "Roboto", sans-serif;
   color: $text-color-secondary;
-  background: $smoky-white;
+  background:
+    linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)),
+    url('{{ site.baseurl }}/assets/images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;;
   font-size: 14px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
