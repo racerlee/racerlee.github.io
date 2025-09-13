@@ -17,3 +17,22 @@ $sidebar-order: 2;
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
 @import "custom"; // background use bg.jpg
+
+/* === hard override for background & colors === */
+body {
+  background:
+    linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)),
+    url('{{ "/assets/images/bg.jpg" | relative_url }}') center/cover no-repeat fixed !important;
+}
+
+.wrapper { background: transparent !important; }
+
+.sidebar-wrapper {
+  /* 不要太淡：改成較深的固定色；你可換其他色碼 */
+  background: #1f2a44 !important;
+  color: #fff !important;
+  .profile-container { background: transparent !important; }
+  a { color: #fff !important; }
+}
+
+.main-wrapper { background: rgba(255,255,255,.95) !important; }
