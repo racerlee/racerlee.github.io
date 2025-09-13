@@ -363,3 +363,28 @@ p {
     margin-right: 5px;
   }
 }
+
+
+#==============
+
+/* === Global background image === */
+body {
+  /* 可選：加入半透明漸層疊一層，讓文字更清楚 */
+  background:
+    linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)),
+    url('{{ site.baseurl }}/assets/images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* 讓上層容器不把背景整塊蓋掉，改為半透明或透明 */
+.wrapper {
+  background: rgba($theme-color, 0.15); /* 依喜好調 0.0–0.3，或用 transparent */
+}
+
+.sidebar-wrapper {
+  background: rgba($theme-color, 0.35); /* 側欄略深一點 */
+}
+
+.main-wrapper {
+  background: rgba(255, 255, 255, 0.9); /* 內容白底但略透明，提高可讀性 */
+}
