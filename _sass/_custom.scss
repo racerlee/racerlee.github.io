@@ -1,4 +1,37 @@
+/* === Custom overrides === */
+
+/* 1) 全站背景圖 */
 body {
-  background: url('{{ site.baseurl }}/assets/images/bg.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background:
+    linear-gradient(rgba(0,0,0,.10), rgba(0,0,0,.10)),
+    url('{{ "/assets/images/bg.jpg" | relative_url }}') center/cover no-repeat fixed !important;
 }
+
+/* 2) 讓外層卡片不蓋掉背景圖 */
+.wrapper {
+  background: transparent !important;
+}
+
+/* 3) Sidebar 調深；主內容半透明白底（可讀性好） */
+.sidebar-wrapper {
+  /* 用比 theme 更深一點的色；你可改為具體色碼，如 #1f2a44 */
+  background: darken($theme-color, 12%) !important;
+  color: #fff !important;
+
+  /* 取消半透明黑蓋板，否則看起來會灰灰的 */
+  .profile-container {
+    background: transparent !important;
+  }
+
+  a { color: #fff !important; }
+}
+
+/* 主內容底色：略帶透明感，讓背景若隱若現；要完全白就改成 #fff */
+.main-wrapper {
+  background: rgba(255,255,255,0.95) !important;
+}
+
+/* 視需要也可把左側分隔陰影加強一點（可選） */
+.wrapper {
+  @include box-shadow(0 2px 12px rgba(0,0,0,.18));
+} 
