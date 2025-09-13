@@ -39,7 +39,12 @@ p {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  background: $theme-color;
+  background:
+    linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)),
+    url('{{ site.baseurl }}/assets/images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;;
+  font-size: 14px;
+  padding: 30px;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
