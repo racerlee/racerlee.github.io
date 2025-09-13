@@ -71,7 +71,7 @@ sidebar:
 
 
 career-profile:
-  title: Career Profile
+  title: 個人簡介 Profile
   summary: |
     Summarise your career here lorem ipsum dolor sit amet, consectetuer
     adipiscing elit. You can [download this free resume/CV template here]().
@@ -80,19 +80,23 @@ career-profile:
     Donec quam felis, ultricies nec, pellentesque eu.
     Second paragraph if required.
 education:
-  title: Education
+  title: 學歷 EDUCATION
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: B.S. in Chemical Engineering
+    university: National Cheng Kung University (NCKU)
+    time: 2022 - 2026
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      在高中時因同時對物理跟化學有興趣，而選擇了會廣泛應用到兩者、且出路多元的化工系，希望可以在就讀的四年間探索並找到未來的方向。
+      就讀期間修習了單元操作、物理化學、有機化學、化工熱力學、化學反應工程等課程，系上的實驗課程與專題報告讓我在大學部就訓練了實驗手法與報告撰寫能力。
+      我研究的方向為半導體材料，研究其用於氧化與還原反應，如產生氫能源或降解污染物，研究結果可參考我的專題報告，期望在碩士學位有更進一步的研究成果。
+			During senior high school, I have strong interests in both physics and chemistry. 
+   		Therefore, I decided to study chemical engineering, which combines two fields and provides many career paths. 
+     	During my four years of study, I have taken courses such as Unit Operations, Physical Chemistry, Organic Chemistry, Chemical Engineering Thermodynamics, and Chemical Reaction Engineering. 
+      Through laboratory classes and project reports, I gained hands-on experimental skills and experience in writing scientific reports.
+			My research focuses on semiconductor materials and their applications in oxidation and reduction reactions, such as hydrogen evolution and pollutant degradation. 
+   		The results of my work can be found in my undergraduate project, and I hope to continue and expand this research during my master’s degree.
+       # - Bullet point
+       # - Bullet point
   - degree: BSc in Applied Mathematics
     university: Bristol University
     time: 2007 - 2011
@@ -133,27 +137,18 @@ education:
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
+  - name: Crash Course on Python
+    start: 
     end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+    organization: Google through Coursera
+  #  credentialid: 111-222
+  #  credentialurl: www.google.com
+ #   credentialname: Google
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
+      An introductory programming course covering Python basics, 
+      including variables, functions, loops, and error handling. 
+      Provides hands-on practice to build problem-solving skills 
+      and prepare for further studies in programming and data science.
   - name: Git learning
     start: 2019
     end:
