@@ -1,0 +1,57 @@
+{% assign activities = site.data.data.activities %}
+{% if activities %}
+<section class="section activities-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ activities.title }}
+  </h2>
+
+  {% for act in activities.list %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="cert-title">{{ act.name }}</h3>
+        <div class="time">
+          {{ act.start }}
+          {% if act.end %} – {{ act.end }}{% endif %}
+        </div>
+      </div>
+      <!--//upper-row-->
+
+      <div class="second-upper-row">
+        <div class="cert-org">
+          {% if act.role %}{{ act.role }}{% endif %}
+          {% if act.organization %}
+            {% if act.role %} · {% endif %}{{ act.organization }}
+          {% endif %}
+          {% if act.location %}
+            {% if act.role or act.organization %} · {% endif %}{{ act.location }}
+          {% endif %}
+        </div>
+
+        {% if act.url %}
+        <div class="cert-url">
+          <a
+            href="//{{ act.url }}"
+            target="_blank"
+            rel="noreferrer nofollow noopener"
+          >{{ act.link_text | default: '相關連結' }}</a>
+        </div>
+        {% endif %}
+      </div>
+      <!--//second-upper-row-->
+    </div>
+    <!--//meta-->
+
+    {% if act.details %}
+      <div class="details">{{ act.details | markdownify }}</div>
+    {% endif %}
+  </div>
+  <!--//item-->
+  {% endfor %}
+</section>
+<!--//section-->
+{% endif %}
