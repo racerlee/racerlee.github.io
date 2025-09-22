@@ -148,22 +148,14 @@ certifications:
       including variables, functions, loops, and error handling. 
       Provides hands-on practice to build problem-solving skills 
       and prepare for further studies in programming and data science.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    #- name: Git learning
+    # start: 2019
+     #end:
+     #organization: Microsoft
+     #credentialid: 111-222
+     #credentialurl: www.github.com
+     #credentialname: Github
+     #details: |
 
 projects:
   title: Projects
@@ -198,13 +190,13 @@ activities:
       start: 2023-09
       end: 2024-09
       organization: 國立成功大學
-      location: 台南
-      url: https://www.instagram.com/ncku_roller/?igshid=NzZlODBkYWE4Ng%3D%3D 
+     #location: 台南
+      url: https://instagram.com/ncku_roller?igshid=NzZlODBkYWE4Ng==
       link_text: 社團instagram
       details: |
-        - 推動社團租借直排輪給參加學校體育課的同學，可增加社團收入同時更換老舊設備，以提供更好的服務品質，達到良性循環。 Organized rollerblade rentals for PE students to increase income and upgrade equipment.
-        - 完善社團制度，以便學弟妹經營社團，行政所需文件與活動辦理方法皆整理完給下一屆。 Improved club rules and documented procedures to help future members manage the club.
-        - 建立幹部班表與每週上課內容，讓社員與幹部清楚教學流程。 Created duty schedules and weekly lesson plans for clear teaching flow.
+        - 推動社團租借直排輪給參加學校體育課的同學，可增加社團收入同時更換老舊設備，以提供更好的服務品質，達到良性循環。  \n Organized rollerblade rentals for PE students to increase income and upgrade equipment.
+        - 完善社團制度，以便學弟妹經營社團，行政所需文件與活動辦理方法皆整理完給下一屆。  \n Improved club rules and documented procedures to help future members manage the club.
+        - 建立幹部班表與每週上課內容，讓社員與幹部清楚教學流程。  \n Created duty schedules and weekly lesson plans for clear teaching flow.
     - name: 程式設計研究社
       role: 課程組長
       start: 2022-09
