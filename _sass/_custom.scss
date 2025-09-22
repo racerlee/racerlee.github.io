@@ -117,11 +117,22 @@ body:lang(en) {
   margin-bottom: 0.25em;
 }
 
-.education-section .meta .school,
-.education-section .meta .degree {
-  color: #1a2a5f !important;   /* 深藍色 */
-  font-size: 15px !important;  /* 比原本略大 */
-  font-weight: 600;            /* 半粗，讓學校名稱更突出 */
+.education-section .degree {
+  color: #1a2a5f !important;    /* 深藍 */
+  font-size: 16px !important;   /* 稍大一級，當小標 */
+  font-weight: 700 !important;  /* 粗體 */
+  margin-bottom: 0.2rem;
+}
+
+.education-section .school {
+  color: #1a2a5f !important;    /* 深藍，取代灰色 */
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+/* （保險）把日期也調深一點，避免太淡 */
+.education-section .time {
+  color: #1a2a5f !important;
 }
 
 
