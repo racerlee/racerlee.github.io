@@ -35,3 +35,9 @@ body {
 .wrapper {
   @include box-shadow(0 2px 12px rgba(0,0,0,.18));
 } 
+
+.cert-org {
+  color: #555 !important;      /* 由淺灰 (#999) 改成 #555，更顯眼 */
+  font-weight: 500 !important; /* 半粗字體 */
+  font-size: 0.95em;           /* 比原本稍微大一點 */
+}
