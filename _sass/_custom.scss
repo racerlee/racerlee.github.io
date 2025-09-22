@@ -130,3 +130,9 @@ body:lang(en) {
   font-weight: 700;            /* 粗體 */
   margin-bottom: 0.2em;
 }
+
+.activities-section .item {
+  margin-bottom: 1.5em;   /* 社團項目之間多一點距離 */
+  padding-bottom: 0.5em;  /* 如果想要分得更開 */
+  border-bottom: 1px dashed #ddd; /* 可選，增加一條淡淡的分隔線 */
+}
