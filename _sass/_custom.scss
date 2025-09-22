@@ -63,3 +63,14 @@ body:lang(en) {
   font-weight: 400;      /* 正常粗細 */
   margin-top: 0.5em;
 }
+
+.project-image {
+  margin: 10px 0;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    border-radius: 8px;   /* 圓角 */
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  }
+}
