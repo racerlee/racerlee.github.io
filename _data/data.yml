@@ -151,12 +151,12 @@ certifications:
 
 projects:
   title: 專題論文與研究 Research & Projects
-  - title: 低溫迴流法製備硫化銦鋅於光催化降解四環黴素之研究 <br> Photocatalytic Degradation of Tetracycline by Zn<sub>m</sub>In<sub>2</sub>S<sub>3+m</sub> (m = 1-3) prepared by low-temperature reflux method
+  list:
+    - title: 低溫迴流法製備硫化銦鋅於光催化降解四環黴素之研究 <br> Photocatalytic Degradation of Tetracycline by Zn<sub>m</sub>In<sub>2</sub>S<sub>3+m</sub> (m = 1-3) prepared by low-temperature reflux method
     #link: "#hook"
-    tagline: |
-      -本研究以低溫迴流法合成不同比例組成的硫化銦鋅（ZIS124、ZIS225、ZIS326），並與水熱法合成的 ZnIn₂S₄ (P-ZIS) 比較，應用於光催化降解四環黴素。紫外–可見光吸收光譜顯示樣品能隙隨組成變化；實驗結果則顯示 ZIS225 在 900 rpm 條件下具最佳降解效能。ZIS124 的吸附與降解能力與 P-ZIS 相近。以一階與二階反應模型模擬降解行為，結果偏向一階反應。
-      <br> Zn–In–S compounds with different stoichiometries (ZIS124, ZIS225, ZIS326) were synthesized via a low-temperature reflux method and compared with hydrothermally prepared ZnIn₂S₄ (P-ZIS) for tetracycline photodegradation. UV–Vis analysis indicated composition-dependent bandgap shifts, and ZIS225 exhibited the highest degradation efficiency at 900 rpm. Kinetic fitting suggested that the degradation process followed first-order reaction behavior.
-      -
+      tagline: |
+        -本研究以低溫迴流法合成不同比例組成的硫化銦鋅（ZIS124、ZIS225、ZIS326），並與水熱法合成的 ZnIn₂S₄ (P-ZIS) 比較，應用於光催化降解四環黴素。紫外–可見光吸收光譜顯示樣品能隙隨組成變化；實驗結果則顯示 ZIS225 在 900 rpm 條件下具最佳降解效能。ZIS124 的吸附與降解能力與 P-ZIS 相近。以一階與二階反應模型模擬降解行為，結果偏向一階反應。 <br> Zn–In–S compounds with different stoichiometries (ZIS124, ZIS225, ZIS326) were synthesized via a low-temperature reflux method and compared with hydrothermally prepared ZnIn₂S₄ (P-ZIS) for tetracycline photodegradation. UV–Vis analysis indicated composition-dependent bandgap shifts, and ZIS225 exhibited the highest degradation efficiency at 900 rpm. Kinetic fitting suggested that the degradation process followed first-order reaction behavior.
+        -
 activities:
   title: 社團經歷 Leadership & Activities
   list:
