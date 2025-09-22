@@ -66,7 +66,6 @@ body:lang(en) {
 
 .projects-section .details ul,
 .projects-section .details li {
-  font-size: 0.9rem;   /* 跟其他區塊統一 */
   font-weight: 400;
   line-height: 1.6;
   margin: 0.2em 0;
@@ -87,4 +86,33 @@ body:lang(en) {
 .cert-url {
   color: #222 !important;   /* 統一改成深藍色 */
   font-size: 13px;             /* 稍微比內文小一點點 */
+}
+
+.section .details,
+.section .details p,
+.section .details ul,
+.section .details li {
+  font-size: 14px !important;   /* 內文字級：由 ~12px 調到 14px */
+  line-height: 1.75 !important; /* 行距舒適 */
+  color: #1a2a5f !important;    /* 深藍，取代原本灰字 */
+  font-weight: 400;
+  margin: 0.3em 0;
+}
+
+/* 小字（職稱／學校／地點／日期／連結）統一變深藍 */
+.activities-section .cert-org,
+.activities-section .time,
+.activities-section .cert-url a,
+.projects-section .time,
+.projects-section .cert-url a,
+.certifications-section .time {
+  color: #1a2a5f !important;
+}
+
+/* 如果你有自定 .project-title，確保大小別偏大（若已改成 h3.cert-title 可忽略） */
+.project-title {
+  display: block;
+  font-size: 1rem !important;
+  font-weight: 600;
+  margin-bottom: 0.25em;
 }
