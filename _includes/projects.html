@@ -12,14 +12,20 @@
 
   {% for project in projects.list %}
     <div class="item">
-
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="cert-title">
+            {% if project.link %}
+              <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+            {% else %}
+              {{ project.title }}
+            {% endif %}
+          </h3>
+          {% if project.time %}
+          <div class="time">{{ project.time }}</div>
+          {% endif %}
+        </div><!--//upper-row-->
+      </div><!--//meta-->
 
       {% if project.image %}
       <div class="project-image">
@@ -32,9 +38,8 @@
         {{ project.tagline | markdownify }}
       </div>
       {% endif %}
-
     </div><!--//item-->
   {% endfor %}
 
-</section>
+</section><!--//section-->
 {% endif %}
