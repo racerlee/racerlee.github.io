@@ -96,15 +96,11 @@ education:
       Through laboratory classes and project reports, I gained hands-on experimental skills and experience in writing scientific reports. 
       My research focuses on semiconductor materials and their applications in oxidation and reduction reactions, such as hydrogen evolution and pollutant degradation. 
       The results of my work can be found in my undergraduate project, and I hope to continue and expand this research during my master’s degree.
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+  - degree: 國立宜蘭高級中學
+    university: National Yilan Senior High School
+    time: 2019 - 2022
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
+      
         - Bullet point
         - Bullet point
 
@@ -137,8 +133,8 @@ certifications:
   title: 證書 Certifications
   list:
   - name: Crash Course on Python
-    start: 
-    end: 2021
+    start: 2021
+    end: 
     organization: Google through Coursera
   #  credentialid: 111-222
   #  credentialurl: www.google.com
@@ -197,15 +193,15 @@ activities:
         - 推動社團租借直排輪給參加學校體育課的同學，可增加社團收入同時更換老舊設備，以提供更好的服務品質，達到良性循環。  <br> Organized rollerblade rentals for PE students to increase income and upgrade equipment.
         - 完善社團制度，以便學弟妹經營社團，行政所需文件與活動辦理方法皆整理完給下一屆。  <br> Improved club rules and documented procedures to help future members manage the club.
         - 建立幹部班表與每週上課內容，讓社員與幹部清楚教學流程。  <br> Created duty schedules and weekly lesson plans for clear teaching flow.
-    - name: 程式設計研究社
-      role: 課程組長
-      start: 2022-09
-      end: 2023-06
+    - name: 成大化工系羽 NCKU Chemical Engineering Badminton Club
+      role: 美宣 Graphic Designer
+      start: 2023-09
+      end: 2024-09
       organization: 國立成功大學
-      location: 台南
+      #location: 台南
       details: |
-        - 規劃 Python 基礎到資料分析的 10 週工作坊。
-        - 協辦 Hackathon，招募 80+ 名參與者。
+        - 設計社服圖案。 <br> Designed team uniform graphics.
+        - 協助舉辦系上師生羽球比賽。 <br> Assisted in organizing the departmental faculty–student badminton tournament.
 
 
 
