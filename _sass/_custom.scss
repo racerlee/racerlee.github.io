@@ -41,3 +41,12 @@ body {
   font-weight: 500 !important; /* 半粗字體 */
   font-size: 0.95em;           /* 比原本稍微大一點 */
 }
+
+body {
+  font-family: "Noto Sans TC", "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* 針對英文專門用無襯線字體 */
+body:lang(en) {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+}
