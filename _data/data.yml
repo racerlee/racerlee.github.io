@@ -134,7 +134,7 @@ education:
      #   - Bullet point
 
 certifications:
-  title: Certifications
+  title: 證書 Certifications
   list:
   - name: Crash Course on Python
     start: 
@@ -189,6 +189,33 @@ projects:
   - title: Delta
     link: "#"
     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+activities:
+  title: 社團經歷 Leadership & Activities
+  list:
+    - name: 成功大學溜冰社 NCKU Roller Association
+      role: 社長 Chairman
+      start: 2023-09
+      end: 2024-09
+      organization: 國立成功大學
+      location: 台南
+      url: https://www.instagram.com/ncku_roller/?igshid=NzZlODBkYWE4Ng%3D%3D 
+      link_text: 社團instagram
+      details: |
+        - 推動社團租借直排輪給參加學校體育課的同學，可增加社團收入同時更換老舊設備，以提供更好的服務品質，達到良性循環。 Organized rollerblade rentals for PE students to increase income and upgrade equipment.
+        - 完善社團制度，以便學弟妹經營社團，行政所需文件與活動辦理方法皆整理完給下一屆。 Improved club rules and documented procedures to help future members manage the club.
+        - 建立幹部班表與每週上課內容，讓社員與幹部清楚教學流程。 Created duty schedules and weekly lesson plans for clear teaching flow.
+    - name: 程式設計研究社
+      role: 課程組長
+      start: 2022-09
+      end: 2023-06
+      organization: 國立成功大學
+      location: 台南
+      details: |
+        - 規劃 Python 基礎到資料分析的 10 週工作坊。
+        - 協辦 Hackathon，招募 80+ 名參與者。
+
+
 
 #oss:
 #  title: OSS Contributions
