@@ -71,3 +71,20 @@ body:lang(en) {
   line-height: 1.6;
   margin: 0.2em 0;
 }
+
+.details,
+.projects-section .details,
+.activities-section .details,
+.certifications-section .details {
+  font-size: 14px !important;     /* 原本大概是 12px，改大一點 */
+  line-height: 1.7;               /* 行距也拉開一點，閱讀更舒服 */
+  color: #1a2a5f !important;      /* 深藍色，比灰色更清楚 */
+}
+
+/* 如果你還有灰色的小字（例如 cert-org、time 等） */
+.cert-org,
+.time,
+.cert-url {
+  color: #222 !important;   /* 統一改成深藍色 */
+  font-size: 13px;             /* 稍微比內文小一點點 */
+}
