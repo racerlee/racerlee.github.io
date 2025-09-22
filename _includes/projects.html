@@ -10,12 +10,6 @@
     {{ projects.title }}
   </h2>
 
-  {% if projects.intro %}
-  <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
-
   {% for project in projects.list %}
     <div class="item">
 
@@ -27,6 +21,12 @@
         {% endif %}
       </span>
 
+      {% if project.image %}
+      <div class="project-image">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+      </div>
+      {% endif %}
+
       {% if project.tagline %}
       <div class="details">
         {{ project.tagline | markdownify }}
@@ -36,5 +36,5 @@
     </div><!--//item-->
   {% endfor %}
 
-</section><!--//section-->
+</section>
 {% endif %}
