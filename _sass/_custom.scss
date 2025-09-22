@@ -116,3 +116,17 @@ body:lang(en) {
   font-weight: 600;
   margin-bottom: 0.25em;
 }
+
+.education-section .meta .school,
+.education-section .meta .degree {
+  color: #1a2a5f !important;   /* 深藍色 */
+  font-size: 15px !important;  /* 比原本略大 */
+  font-weight: 600;            /* 半粗，讓學校名稱更突出 */
+}
+
+/* 如果你希望「學位」(B.S. in Chemical Engineering) 和學校不同層級 */
+.education-section .meta .degree {
+  font-size: 16px !important;
+  font-weight: 700;            /* 粗體 */
+  margin-bottom: 0.2em;
+}
