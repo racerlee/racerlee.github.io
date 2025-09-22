@@ -54,6 +54,12 @@ body:lang(en) {
 .project-tagline {
   font-family: "Noto Sans TC", "Microsoft JhengHei", "PingFang TC",
                "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  line-height: 1.6;
-  font-size: 0.95em;
+}
+
+.project-tagline,
+.projects-section .details {
+  font-size: 0.9rem;     /* 跟其他區塊一樣大小 */
+  line-height: 1.6;      /* 行距舒服 */
+  font-weight: 400;      /* 正常粗細 */
+  margin-top: 0.5em;
 }
