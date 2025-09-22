@@ -16,7 +16,7 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
+  {% for project in projects.list %}
     <div class="item">
 
       <span class="project-title">
@@ -28,7 +28,9 @@
       </span>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <div class="project-tagline">
+        {{ project.tagline | markdownify }}
+      </div>
       {% endif %}
 
     </div><!--//item-->
